@@ -3,3 +3,6 @@
 /* (9) -Your img element should be centered within its parent element */
 
 /* Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS */
+img {
+    display: block;
+}
