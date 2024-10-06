@@ -1,8 +1,25 @@
-/* (8) -Your #image should use max-width and height properties to resize responsively, relative to the width of its parent element, without exceeding its original size   */
-
-/* (9) -Your img element should be centered within its parent element */
-
-/* Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS */
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
 }
+
+body {
+    background-color: #161616;
+    color: white;
+    text-align: center;
+    list-style-position: inside;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#img-div {
+    max-width: 400px;
+    max-height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-bottom: 6%;
+}
+
